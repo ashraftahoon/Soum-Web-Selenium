@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="30" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-11T20:02:17 EET" name="ChromeTestSuite" finished-at="2024-02-11T20:04:29 EET" duration-ms="132271">
+    <groups>
+    </groups>
+    <test started-at="2024-02-11T20:02:17 EET" name="ChromeTests" finished-at="2024-02-11T20:04:29 EET" duration-ms="132271">
+      <class name="testpages.TestCaseWithProblemUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:34 EET" name="methodSetup" finished-at="2024-02-11T20:02:37 EET" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="testingValidUserLogin()[pri:1, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:37 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:02:38 EET" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method signature="TestingAddProductClickableInHomePage()[pri:2, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:38 EET" name="TestingAddProductClickableInHomePage" description="can assertthat add product is  clickable in home page " finished-at="2024-02-11T20:02:38 EET" duration-ms="654" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.TestingAddProductClickableInHomePage(TestCaseWithProblemUser.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingAddProductClickableInHomePage -->
+        <test-method signature="testSortAToZ()[pri:3, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:38 EET" name="testSortAToZ" description="sorting" finished-at="2024-02-11T20:02:39 EET" duration-ms="158" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.testSortAToZ(TestCaseWithProblemUser.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortAToZ -->
+        <test-method signature="testSortZToA()[pri:4, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:39 EET" name="testSortZToA" description="sorting" finished-at="2024-02-11T20:02:39 EET" duration-ms="128" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.testSortZToA(TestCaseWithProblemUser.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortZToA -->
+        <test-method signature="testSortLowToHigh()[pri:5, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:39 EET" name="testSortLowToHigh" description="sorting" finished-at="2024-02-11T20:02:39 EET" duration-ms="154" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.testSortLowToHigh(TestCaseWithProblemUser.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortLowToHigh -->
+        <test-method signature="testSortHighToLow()[pri:6, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:39 EET" name="testSortHighToLow" description="sorting" finished-at="2024-02-11T20:02:39 EET" duration-ms="159" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.testSortHighToLow(TestCaseWithProblemUser.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortHighToLow -->
+        <test-method signature="testingProductDetails()[pri:7, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:39 EET" name="testingProductDetails" description="check product details" finished-at="2024-02-11T20:02:39 EET" duration-ms="260" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [$29.99] but found [$49.99]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+add product is not clickable expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [false] but found [true],
+expected [$29.99] but found [$49.99]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCaseWithProblemUser.testingProductDetails(TestCaseWithProblemUser.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingProductDetails -->
+        <test-method signature="testingCheckOut()[pri:8, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:39 EET" name="testingCheckOut" description="check out" finished-at="2024-02-11T20:02:41 EET" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingCheckOut -->
+        <test-method signature="TestlogOut()[pri:9, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:41 EET" name="TestlogOut" finished-at="2024-02-11T20:02:41 EET" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestlogOut -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.TestCaseWithProblemUser@466276d8]" started-at="2024-02-11T20:02:41 EET" name="methodTearDown" finished-at="2024-02-11T20:02:42 EET" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.TestCaseWithProblemUser -->
+      <class name="testpages.TestCasesWithStandardUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:17 EET" name="methodSetup" finished-at="2024-02-11T20:02:21 EET" duration-ms="4295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="testingValidUserLogin()[pri:1, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:21 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:02:22 EET" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method signature="testingAddProductToCart()[pri:2, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:23 EET" name="testingAddProductToCart" description="add product to cart" finished-at="2024-02-11T20:02:23 EET" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingAddProductToCart -->
+        <test-method signature="testingCheckOut()[pri:3, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:23 EET" name="testingCheckOut" description="make Order" finished-at="2024-02-11T20:02:25 EET" duration-ms="1748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingCheckOut -->
+        <test-method signature="testSortAToZ()[pri:4, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:25 EET" name="testSortAToZ" description="sorting" finished-at="2024-02-11T20:02:25 EET" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortAToZ -->
+        <test-method signature="testSortZToA()[pri:5, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:25 EET" name="testSortZToA" description="sorting" finished-at="2024-02-11T20:02:25 EET" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortZToA -->
+        <test-method signature="testSortLowToHigh()[pri:6, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:25 EET" name="testSortLowToHigh" description="sorting" finished-at="2024-02-11T20:02:25 EET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortLowToHigh -->
+        <test-method signature="testSortHighToLow()[pri:7, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:25 EET" name="testSortHighToLow" description="sorting" finished-at="2024-02-11T20:02:26 EET" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortHighToLow -->
+        <test-method signature="testingRemoveProduct()[pri:8, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:26 EET" name="testingRemoveProduct" description="remove product from home" finished-at="2024-02-11T20:02:26 EET" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingRemoveProduct -->
+        <test-method signature="testingRemoveProductFromCart()[pri:9, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:26 EET" name="testingRemoveProductFromCart" description="remove product from cart" finished-at="2024-02-11T20:02:26 EET" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingRemoveProductFromCart -->
+        <test-method signature="testEmptyCartCheckout()[pri:10, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:26 EET" name="testEmptyCartCheckout" description="check cart is empty or not ?" finished-at="2024-02-11T20:02:26 EET" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyCartCheckout -->
+        <test-method signature="TestLogOut()[pri:11, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:26 EET" name="TestLogOut" description="TestLogOut" finished-at="2024-02-11T20:02:27 EET" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLogOut -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.TestCasesWithStandardUser@49ff7d8c]" started-at="2024-02-11T20:02:27 EET" name="methodTearDown" finished-at="2024-02-11T20:02:27 EET" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.TestCasesWithStandardUser -->
+      <class name="testpages.TestCasesWithPerformanceUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:02:42 EET" name="methodSetup" finished-at="2024-02-11T20:02:46 EET" duration-ms="3954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="testingValidUserLogin()[pri:1, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:02:46 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:02:52 EET" duration-ms="6294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method signature="testSortAToZ()[pri:2, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:02:52 EET" name="testSortAToZ" description="sorting A to Z" finished-at="2024-02-11T20:02:52 EET" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortAToZ -->
+        <test-method signature="testSortZToA()[pri:3, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:02:52 EET" name="testSortZToA" description="sorting Z to A" finished-at="2024-02-11T20:02:57 EET" duration-ms="5146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortZToA -->
+        <test-method signature="testSortLowToHigh()[pri:4, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:02:57 EET" name="testSortLowToHigh" description="sorting Low to High" finished-at="2024-02-11T20:03:03 EET" duration-ms="5133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortLowToHigh -->
+        <test-method signature="testSortHighToLow()[pri:5, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:03 EET" name="testSortHighToLow" description="sorting  High to Low" finished-at="2024-02-11T20:03:08 EET" duration-ms="5137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortHighToLow -->
+        <test-method signature="testingCheckOut()[pri:6, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:08 EET" name="testingCheckOut" description="make order" finished-at="2024-02-11T20:03:14 EET" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingCheckOut -->
+        <test-method signature="testingNavigateToProductDetails()[pri:7, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:14 EET" name="testingNavigateToProductDetails" description="open product details then return back to home " finished-at="2024-02-11T20:03:19 EET" duration-ms="5419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingNavigateToProductDetails -->
+        <test-method signature="testingNavigateToCart()[pri:8, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:19 EET" name="testingNavigateToCart" description="testing open cart then return back to home" finished-at="2024-02-11T20:03:25 EET" duration-ms="5241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingNavigateToCart -->
+        <test-method signature="TestlogOut()[pri:9, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:25 EET" name="TestlogOut" finished-at="2024-02-11T20:03:25 EET" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestlogOut -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.TestCasesWithPerformanceUser@5ce8d869]" started-at="2024-02-11T20:03:25 EET" name="methodTearDown" finished-at="2024-02-11T20:03:25 EET" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.TestCasesWithPerformanceUser -->
+      <class name="testpages.LoginTestWithLockedUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.LoginTestWithLockedUser@64c63c79]" started-at="2024-02-11T20:04:24 EET" name="methodSetup" finished-at="2024-02-11T20:04:28 EET" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="testingValidUserLogin()[pri:0, instance:testpages.LoginTestWithLockedUser@64c63c79]" started-at="2024-02-11T20:04:28 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:04:29 EET" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.LoginTestWithLockedUser@64c63c79]" started-at="2024-02-11T20:04:29 EET" name="methodTearDown" finished-at="2024-02-11T20:04:29 EET" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.LoginTestWithLockedUser -->
+      <class name="testpages.TestCasesWithErrorUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:27 EET" name="methodSetup" finished-at="2024-02-11T20:02:31 EET" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method signature="testingValidUserLogin()[pri:1, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:31 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:02:32 EET" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method signature="testingBrokenSorting()[pri:2, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:32 EET" name="testingBrokenSorting" description="testing sorting functionality" finished-at="2024-02-11T20:02:32 EET" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingBrokenSorting -->
+        <test-method signature="TestingCheckOut()[pri:3, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:32 EET" name="TestingCheckOut" description="testing check out" finished-at="2024-02-11T20:02:34 EET" duration-ms="1412" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Last name field does not accept input expected [tahoon] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Last name field does not accept input expected [tahoon] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testpages.TestCasesWithErrorUser.TestingCheckOut(TestCasesWithErrorUser.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingCheckOut -->
+        <test-method signature="TestlogOut()[pri:4, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:34 EET" name="TestlogOut" finished-at="2024-02-11T20:02:34 EET" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestlogOut -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.TestCasesWithErrorUser@528c868]" started-at="2024-02-11T20:02:34 EET" name="methodTearDown" finished-at="2024-02-11T20:02:34 EET" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.TestCasesWithErrorUser -->
+      <class name="testpages.TestCasesWithVisualUser">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:03:25 EET" name="methodSetup" finished-at="2024-02-11T20:03:29 EET" duration-ms="3795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetup -->
+        <test-method is-config="true" signature="beforeEach(org.testng.ITestResult)[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:03:29 EET" name="beforeEach" finished-at="2024-02-11T20:03:43 EET" duration-ms="14197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCasesWithVisualUser.testingValidUserLogin()[pri:1, instance:testpages.TestCasesWithVisualUser@27eedb64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="testingValidUserLogin()[pri:1, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:03:43 EET" name="testingValidUserLogin" description="Soum - Valid User Login" finished-at="2024-02-11T20:03:58 EET" duration-ms="14117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingValidUserLogin -->
+        <test-method is-config="true" signature="afterEach()[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:03:58 EET" name="afterEach" finished-at="2024-02-11T20:03:58 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEach -->
+        <test-method is-config="true" signature="beforeEach(org.testng.ITestResult)[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:03:58 EET" name="beforeEach" finished-at="2024-02-11T20:04:02 EET" duration-ms="4610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCasesWithVisualUser.testingAddProductToCart()[pri:2, instance:testpages.TestCasesWithVisualUser@27eedb64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="testingAddProductToCart()[pri:2, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:02 EET" name="testingAddProductToCart" description="add product to cart" finished-at="2024-02-11T20:04:20 EET" duration-ms="17372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingAddProductToCart -->
+        <test-method is-config="true" signature="afterEach()[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:20 EET" name="afterEach" finished-at="2024-02-11T20:04:20 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEach -->
+        <test-method is-config="true" signature="beforeEach(org.testng.ITestResult)[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:20 EET" name="beforeEach" finished-at="2024-02-11T20:04:23 EET" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestCasesWithVisualUser.TestlogOut()[pri:3, instance:testpages.TestCasesWithVisualUser@27eedb64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEach -->
+        <test-method signature="TestlogOut()[pri:3, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:23 EET" name="TestlogOut" finished-at="2024-02-11T20:04:24 EET" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestlogOut -->
+        <test-method is-config="true" signature="afterEach()[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:24 EET" name="afterEach" finished-at="2024-02-11T20:04:24 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEach -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testpages.TestCasesWithVisualUser@27eedb64]" started-at="2024-02-11T20:04:24 EET" name="methodTearDown" finished-at="2024-02-11T20:04:24 EET" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+      </class> <!-- testpages.TestCasesWithVisualUser -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- ChromeTestSuite -->
+</testng-results>

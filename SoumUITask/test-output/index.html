@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ChromeTestSuite" class="navigator-link">
+              <span class="suite-name border-failed">ChromeTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ChromeTestSuite" class="navigator-link ">
+                    <span>C:\Users\lllllll\Desktop\workspace\SoumUITask\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ChromeTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ChromeTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ChromeTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ChromeTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ChromeTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ChromeTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 7 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ChromeTestSuite" class="hide-methods failed suite-ChromeTestSuite"> (hide)</a> <!-- hide-methods failed suite-ChromeTestSuite -->
+                      <a href="#" panel-name="suite-ChromeTestSuite" class="show-methods failed suite-ChromeTestSuite"> (show)</a> <!-- show-methods failed suite-ChromeTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-ChromeTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="TestingAddProductClickableInHomePage">TestingAddProductClickableInHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithErrorUser" class="method navigator-link" hash-for-method="TestingCheckOut">TestingCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testSortAToZ">testSortAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testSortHighToLow">testSortHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testSortLowToHigh">testSortLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testSortZToA">testSortZToA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testingProductDetails">testingProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ChromeTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ChromeTestSuite" class="hide-methods passed suite-ChromeTestSuite"> (hide)</a> <!-- hide-methods passed suite-ChromeTestSuite -->
+                      <a href="#" panel-name="suite-ChromeTestSuite" class="show-methods passed suite-ChromeTestSuite"> (show)</a> <!-- show-methods passed suite-ChromeTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-ChromeTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="TestLogOut">TestLogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="TestlogOut">TestlogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithVisualUser" class="method navigator-link" hash-for-method="TestlogOut">TestlogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithErrorUser" class="method navigator-link" hash-for-method="TestlogOut">TestlogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="TestlogOut">TestlogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testEmptyCartCheckout">testEmptyCartCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testSortAToZ">testSortAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testSortAToZ">testSortAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testSortHighToLow">testSortHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testSortHighToLow">testSortHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testSortLowToHigh">testSortLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testSortLowToHigh">testSortLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testSortZToA">testSortZToA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testSortZToA">testSortZToA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithVisualUser" class="method navigator-link" hash-for-method="testingAddProductToCart">testingAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testingAddProductToCart">testingAddProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithErrorUser" class="method navigator-link" hash-for-method="testingBrokenSorting">testingBrokenSorting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testingCheckOut">testingCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testingCheckOut">testingCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testingCheckOut">testingCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testingNavigateToCart">testingNavigateToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testingNavigateToProductDetails">testingNavigateToProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testingRemoveProduct">testingRemoveProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testingRemoveProductFromCart">testingRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithErrorUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithPerformanceUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.LoginTestWithLockedUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithVisualUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCasesWithStandardUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ChromeTestSuite" title="testpages.TestCaseWithProblemUser" class="method navigator-link" hash-for-method="testingValidUserLogin">testingValidUserLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ChromeTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ChromeTestSuite" class="panel ChromeTestSuite">
+          <div class="suite-ChromeTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpages.TestCasesWithErrorUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestingCheckOut">
+                  </a> <!-- TestingCheckOut -->
+                  <span class="method-name">TestingCheckOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	Last name field does not accept input expected [tahoon] but found []
+	at testpages.TestCasesWithErrorUser.TestingCheckOut(TestCasesWithErrorUser.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(testing check out)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-failed -->
+          <div class="suite-ChromeTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testpages.TestCaseWithProblemUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestingAddProductClickableInHomePage">
+                  </a> <!-- TestingAddProductClickableInHomePage -->
+                  <span class="method-name">TestingAddProductClickableInHomePage</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true]
+	at testpages.TestCaseWithProblemUser.TestingAddProductClickableInHomePage(TestCaseWithProblemUser.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(can assertthat add product is  clickable in home page )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortAToZ">
+                  </a> <!-- testSortAToZ -->
+                  <span class="method-name">testSortAToZ</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true],
+	expected [false] but found [true]
+	at testpages.TestCaseWithProblemUser.testSortAToZ(TestCaseWithProblemUser.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortHighToLow">
+                  </a> <!-- testSortHighToLow -->
+                  <span class="method-name">testSortHighToLow</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true]
+	at testpages.TestCaseWithProblemUser.testSortHighToLow(TestCaseWithProblemUser.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortLowToHigh">
+                  </a> <!-- testSortLowToHigh -->
+                  <span class="method-name">testSortLowToHigh</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true]
+	at testpages.TestCaseWithProblemUser.testSortLowToHigh(TestCaseWithProblemUser.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortZToA">
+                  </a> <!-- testSortZToA -->
+                  <span class="method-name">testSortZToA</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true]
+	at testpages.TestCaseWithProblemUser.testSortZToA(TestCaseWithProblemUser.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingProductDetails">
+                  </a> <!-- testingProductDetails -->
+                  <span class="method-name">testingProductDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	add product is not clickable expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [false] but found [true],
+	expected [$29.99] but found [$49.99]
+	at testpages.TestCaseWithProblemUser.testingProductDetails(TestCaseWithProblemUser.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(check product details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-failed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.TestCasesWithVisualUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestlogOut">
+                  </a> <!-- TestlogOut -->
+                  <span class="method-name">TestlogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingAddProductToCart">
+                  </a> <!-- testingAddProductToCart -->
+                  <span class="method-name">testingAddProductToCart</span>
+                  <em>
+(add product to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.TestCasesWithStandardUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestLogOut">
+                  </a> <!-- TestLogOut -->
+                  <span class="method-name">TestLogOut</span>
+                  <em>
+(TestLogOut)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyCartCheckout">
+                  </a> <!-- testEmptyCartCheckout -->
+                  <span class="method-name">testEmptyCartCheckout</span>
+                  <em>
+(check cart is empty or not ?)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortAToZ">
+                  </a> <!-- testSortAToZ -->
+                  <span class="method-name">testSortAToZ</span>
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortHighToLow">
+                  </a> <!-- testSortHighToLow -->
+                  <span class="method-name">testSortHighToLow</span>
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortLowToHigh">
+                  </a> <!-- testSortLowToHigh -->
+                  <span class="method-name">testSortLowToHigh</span>
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortZToA">
+                  </a> <!-- testSortZToA -->
+                  <span class="method-name">testSortZToA</span>
+                  <em>
+(sorting)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingAddProductToCart">
+                  </a> <!-- testingAddProductToCart -->
+                  <span class="method-name">testingAddProductToCart</span>
+                  <em>
+(add product to cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingCheckOut">
+                  </a> <!-- testingCheckOut -->
+                  <span class="method-name">testingCheckOut</span>
+                  <em>
+(make Order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingRemoveProduct">
+                  </a> <!-- testingRemoveProduct -->
+                  <span class="method-name">testingRemoveProduct</span>
+                  <em>
+(remove product from home)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingRemoveProductFromCart">
+                  </a> <!-- testingRemoveProductFromCart -->
+                  <span class="method-name">testingRemoveProductFromCart</span>
+                  <em>
+(remove product from cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.TestCasesWithErrorUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestlogOut">
+                  </a> <!-- TestlogOut -->
+                  <span class="method-name">TestlogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingBrokenSorting">
+                  </a> <!-- testingBrokenSorting -->
+                  <span class="method-name">testingBrokenSorting</span>
+                  <em>
+(testing sorting functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.LoginTestWithLockedUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.TestCaseWithProblemUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestlogOut">
+                  </a> <!-- TestlogOut -->
+                  <span class="method-name">TestlogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingCheckOut">
+                  </a> <!-- testingCheckOut -->
+                  <span class="method-name">testingCheckOut</span>
+                  <em>
+(check out)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+          <div class="suite-ChromeTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testpages.TestCasesWithPerformanceUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestlogOut">
+                  </a> <!-- TestlogOut -->
+                  <span class="method-name">TestlogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortAToZ">
+                  </a> <!-- testSortAToZ -->
+                  <span class="method-name">testSortAToZ</span>
+                  <em>
+(sorting A to Z)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortHighToLow">
+                  </a> <!-- testSortHighToLow -->
+                  <span class="method-name">testSortHighToLow</span>
+                  <em>
+(sorting  High to Low)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortLowToHigh">
+                  </a> <!-- testSortLowToHigh -->
+                  <span class="method-name">testSortLowToHigh</span>
+                  <em>
+(sorting Low to High)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSortZToA">
+                  </a> <!-- testSortZToA -->
+                  <span class="method-name">testSortZToA</span>
+                  <em>
+(sorting Z to A)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingCheckOut">
+                  </a> <!-- testingCheckOut -->
+                  <span class="method-name">testingCheckOut</span>
+                  <em>
+(make order)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingNavigateToCart">
+                  </a> <!-- testingNavigateToCart -->
+                  <span class="method-name">testingNavigateToCart</span>
+                  <em>
+(testing open cart then return back to home)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingNavigateToProductDetails">
+                  </a> <!-- testingNavigateToProductDetails -->
+                  <span class="method-name">testingNavigateToProductDetails</span>
+                  <em>
+(open product details then return back to home )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testingValidUserLogin">
+                  </a> <!-- testingValidUserLogin -->
+                  <span class="method-name">testingValidUserLogin</span>
+                  <em>
+(Soum - Valid User Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ChromeTestSuite-class-passed -->
+        </div> <!-- panel ChromeTestSuite -->
+        <div panel-name="test-xml-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\lllllll\Desktop\workspace\SoumUITask\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ChromeTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testpages.TestCasesWithStandardUser&quot;/&gt;
+      &lt;class name=&quot;testpages.TestCasesWithErrorUser&quot;/&gt;
+      &lt;class name=&quot;testpages.TestCaseWithProblemUser&quot;/&gt;
+      &lt;class name=&quot;testpages.TestCasesWithPerformanceUser&quot;/&gt;
+      &lt;class name=&quot;testpages.TestCasesWithVisualUser&quot;/&gt;
+      &lt;class name=&quot;testpages.LoginTestWithLockedUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTests --&gt;
+&lt;/suite&gt; &lt;!-- ChromeTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ChromeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTests (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ChromeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ChromeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ChromeTestSuite');
+function tableData_ChromeTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testingAddProductToCart')
+data.setCell(0, 2, 'testpages.TestCasesWithVisualUser')
+data.setCell(0, 3, 17372);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testingValidUserLogin')
+data.setCell(1, 2, 'testpages.TestCasesWithVisualUser')
+data.setCell(1, 3, 14117);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testingValidUserLogin')
+data.setCell(2, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(2, 3, 6294);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testingCheckOut')
+data.setCell(3, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(3, 3, 6193);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testingNavigateToProductDetails')
+data.setCell(4, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(4, 3, 5419);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testingNavigateToCart')
+data.setCell(5, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(5, 3, 5241);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSortZToA')
+data.setCell(6, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(6, 3, 5146);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSortHighToLow')
+data.setCell(7, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(7, 3, 5137);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSortLowToHigh')
+data.setCell(8, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(8, 3, 5133);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testingCheckOut')
+data.setCell(9, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(9, 3, 1748);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestingCheckOut')
+data.setCell(10, 2, 'testpages.TestCasesWithErrorUser')
+data.setCell(10, 3, 1412);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testingCheckOut')
+data.setCell(11, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(11, 3, 1257);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testingValidUserLogin')
+data.setCell(12, 2, 'testpages.LoginTestWithLockedUser')
+data.setCell(12, 3, 989);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testingValidUserLogin')
+data.setCell(13, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(13, 3, 916);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestLogOut')
+data.setCell(14, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(14, 3, 898);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestlogOut')
+data.setCell(15, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(15, 3, 813);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testingValidUserLogin')
+data.setCell(16, 2, 'testpages.TestCasesWithErrorUser')
+data.setCell(16, 3, 779);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestlogOut')
+data.setCell(17, 2, 'testpages.TestCasesWithVisualUser')
+data.setCell(17, 3, 776);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestlogOut')
+data.setCell(18, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(18, 3, 766);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestingAddProductClickableInHomePage')
+data.setCell(19, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(19, 3, 654);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testingValidUserLogin')
+data.setCell(20, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(20, 3, 596);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testingBrokenSorting')
+data.setCell(21, 2, 'testpages.TestCasesWithErrorUser')
+data.setCell(21, 3, 556);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testingAddProductToCart')
+data.setCell(22, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(22, 3, 553);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testingRemoveProductFromCart')
+data.setCell(23, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(23, 3, 340);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestlogOut')
+data.setCell(24, 2, 'testpages.TestCasesWithErrorUser')
+data.setCell(24, 3, 285);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testingProductDetails')
+data.setCell(25, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(25, 3, 260);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testingRemoveProduct')
+data.setCell(26, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(26, 3, 231);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testSortZToA')
+data.setCell(27, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(27, 3, 209);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testSortAToZ')
+data.setCell(28, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(28, 3, 204);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testSortLowToHigh')
+data.setCell(29, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(29, 3, 171);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testSortHighToLow')
+data.setCell(30, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(30, 3, 159);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testSortAToZ')
+data.setCell(31, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(31, 3, 158);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testSortLowToHigh')
+data.setCell(32, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(32, 3, 154);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testSortAToZ')
+data.setCell(33, 2, 'testpages.TestCasesWithPerformanceUser')
+data.setCell(33, 3, 137);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testEmptyCartCheckout')
+data.setCell(34, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(34, 3, 129);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSortZToA')
+data.setCell(35, 2, 'testpages.TestCaseWithProblemUser')
+data.setCell(35, 3, 128);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSortHighToLow')
+data.setCell(36, 2, 'testpages.TestCasesWithStandardUser')
+data.setCell(36, 3, 124);
+window.suiteTableData['ChromeTestSuite']= { tableData: data, tableDiv: 'times-div-ChromeTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-ChromeTestSuite">
+              </div> <!-- times-div-ChromeTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ChromeTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ChromeTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.TestCasesWithStandardUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">4323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingAddProductToCart</span>
+                <span class="method-start">5473 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingCheckOut</span>
+                <span class="method-start">6032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortAToZ</span>
+                <span class="method-start">7784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortZToA</span>
+                <span class="method-start">7991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortLowToHigh</span>
+                <span class="method-start">8205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortHighToLow</span>
+                <span class="method-start">8380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingRemoveProduct</span>
+                <span class="method-start">8507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingRemoveProductFromCart</span>
+                <span class="method-start">8741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEmptyCartCheckout</span>
+                <span class="method-start">9086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestLogOut</span>
+                <span class="method-start">9219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">10120 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.TestCasesWithErrorUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">10291 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">13762 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingBrokenSorting</span>
+                <span class="method-start">14544 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestingCheckOut</span>
+                <span class="method-start">15103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestlogOut</span>
+                <span class="method-start">16522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">16810 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.TestCaseWithProblemUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">16987 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">20016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestingAddProductClickableInHomePage</span>
+                <span class="method-start">20622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortAToZ</span>
+                <span class="method-start">21283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortZToA</span>
+                <span class="method-start">21444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortLowToHigh</span>
+                <span class="method-start">21576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSortHighToLow</span>
+                <span class="method-start">21734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testingProductDetails</span>
+                <span class="method-start">21897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingCheckOut</span>
+                <span class="method-start">22161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestlogOut</span>
+                <span class="method-start">23420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">24238 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.TestCasesWithPerformanceUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">24760 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">28714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortAToZ</span>
+                <span class="method-start">35011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortZToA</span>
+                <span class="method-start">35151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortLowToHigh</span>
+                <span class="method-start">40299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSortHighToLow</span>
+                <span class="method-start">45435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingCheckOut</span>
+                <span class="method-start">50574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingNavigateToProductDetails</span>
+                <span class="method-start">56770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testingNavigateToCart</span>
+                <span class="method-start">62192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestlogOut</span>
+                <span class="method-start">67436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">68204 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.TestCasesWithVisualUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">68374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEach([TestResult name={null} status=CREATED method=TestCasesWithVisualUser.testingValidUserLogin()[pri:1,...)</span>
+                <span class="method-start">72169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">86376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEach</span>
+                <span class="method-start">100497 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEach([TestResult name={null} status=CREATED method=TestCasesWithVisualUser.testingAddProductToCart()[pri:...)</span>
+                <span class="method-start">100501 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testingAddProductToCart</span>
+                <span class="method-start">105113 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEach</span>
+                <span class="method-start">122487 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeEach([TestResult name={null} status=CREATED method=TestCasesWithVisualUser.TestlogOut()[pri:3, instance:t...)</span>
+                <span class="method-start">122491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestlogOut</span>
+                <span class="method-start">125798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEach</span>
+                <span class="method-start">126637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">126640 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testpages.LoginTestWithLockedUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">methodSetup</span>
+                <span class="method-start">126863 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testingValidUserLogin</span>
+                <span class="method-start">131003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">methodTearDown</span>
+                <span class="method-start">131994 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

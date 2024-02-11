@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ChromeTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTests(failed)">
+    <classes>
+      <class name="testpages.TestCasesWithErrorUser">
+        <methods>
+          <include name="methodSetup"/>
+          <include name="methodTearDown"/>
+          <include name="TestingCheckOut"/>
+        </methods>
+      </class> <!-- testpages.TestCasesWithErrorUser -->
+      <class name="testpages.TestCaseWithProblemUser">
+        <methods>
+          <include name="testSortLowToHigh"/>
+          <include name="testingProductDetails"/>
+          <include name="TestingAddProductClickableInHomePage"/>
+          <include name="testSortAToZ"/>
+          <include name="methodSetup"/>
+          <include name="testSortHighToLow"/>
+          <include name="testSortZToA"/>
+          <include name="methodTearDown"/>
+        </methods>
+      </class> <!-- testpages.TestCaseWithProblemUser -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+</suite> <!-- Failed suite [ChromeTestSuite] -->

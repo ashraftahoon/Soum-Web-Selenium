@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 11 16:07:24 EET 2024","Sun Feb 11 16:07:27 EET 2024","2731","Default suite","Default test","testpages.LoginTestWithLockedUser","testpages.LoginTestWithLockedUser","testingValidUserLogin","Soum - Valid User Login","When I Signin with an already signed up user, Then I should Login successfully"
