@@ -4,6 +4,7 @@
 1. Selenium Webdriver
 2. TestNG
 3. Allure Report
+4. applitools
    
 ### Design implementation:
 1. Page Object Model (POM) design pattern
